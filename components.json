@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": false,
+  "tailwind": {
+    "config": "apps/web/tailwind.config.js",
+    "css": "apps/web/app/global.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@nx-monorepo-aceternity-ui-boilerplate/ui-components/components",
+    "utils": "@nx-monorepo-aceternity-ui-boilerplate/ui-components/utils",
+    "ui": "@nx-monorepo-aceternity-ui-boilerplate/ui-components/ui",
+    "examples": "@nx-monorepo-aceternity-ui-boilerplate/ui-components/examples",
+    "blocks": "@nx-monorepo-aceternity-ui-boilerplate/ui-components/blocks"
+  }
+}

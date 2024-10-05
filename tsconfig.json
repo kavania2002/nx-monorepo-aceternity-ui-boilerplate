@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@nx-monorepo-aceternity-ui-boilerplate/ui-components": [
+        "libs/ui-components/src/index.ts"
+      ],
+      "@nx-monorepo-aceternity-ui-boilerplate/ui-components/*": [
+        "libs/ui-components/src/*"
+      ]
+    }
+  }
+}
