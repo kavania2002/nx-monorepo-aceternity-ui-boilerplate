@@ -20,6 +20,9 @@
       ],
       "@nx-monorepo-aceternity-ui-boilerplate/ui-components/server": [
         "libs/ui-components/src/server.ts"
+      ],
+      "@nx-monorepo-aceternity-ui-boilerplate/ui-components/utils": [
+        "libs/ui-components/src/utils.ts"
       ]
     }
   },
